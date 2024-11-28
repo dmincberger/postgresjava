@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/movie
+Content-Type: application/json
+
+{
+"title": "WAAAAAAAAAAAAAAAAAAAH",
+"vote_count": 99999,
+"poster_path": "really good path!",
+"movie_year": 98
+}
+
+###
+GET http://localhost:8080/api/movies
+Accept: application/json
+
+###
+
